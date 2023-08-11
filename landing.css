@@ -1,0 +1,164 @@
+body{
+    display:flex;
+    flex-direction: column;
+    font-family:sans-serif;
+    height:100vh;
+    
+}
+
+.header{
+    display:flex;
+    background-color:#1f2937;
+    color:white;
+    padding:8px;
+    justify-content: space-between;
+}
+
+.left-h{
+    margin-left: 260px;
+    font-weight:bold;
+    font-size:24px;
+}
+
+.right-h{
+    display:flex;
+    gap:18px;
+    margin-right:260px;
+    align-items: center;
+}
+
+.row2{
+    display:flex;
+    background-color:#1f2937;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+.left-row2{
+    margin-left: 260px;
+    width:450px;
+    gap:8px;
+    
+}
+
+.header-row2{
+    font-size:48px;
+    font-weight:bolder; 
+}
+
+.button-row2{
+    padding-top:8px;
+    padding-top: 12px;
+}
+
+.button-row{
+    background-color: #3882f6;
+    color:white;
+    padding: 3px 27px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+img{
+    width:450px;
+    margin-right: 260px;
+}
+
+.row3{
+    padding: 20px;
+}
+
+.header-row3{
+    display:flex;
+    justify-content: center;
+    font-size:48px;
+    color: #1f2937;
+    font-weight: bolder;
+    
+}
+
+.middle-row3{
+    display:flex;
+     justify-content: center; 
+    margin-left: 260px;
+    margin-right:260px;
+}
+
+.box{
+    width:100px;
+    padding-left:80px;
+    padding-right:80px;
+    padding-top: 20px;
+    color:#1f2937;
+}
+
+.middlerow3img{
+    width:100px;
+    border-radius: 6px;
+}
+
+.row4{
+    background-color: #DCDCDC;
+    padding:24px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-text{
+    display:flex;
+    
+    width:400px;
+}
+
+.actualtext{
+    font-size: 18px;
+    color:#1f2937;
+}
+
+.row5{
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+     flex: 1;
+     flex-direction: column; 
+}
+
+.row5box{
+    background-color: #3882f6;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    border-radius:8px;
+}
+
+.leftrow5box{
+    gap:8px;
+    color:white;
+
+
+}
+
+
+.headerrow5{   
+    color:white;
+    font-weight:bold;
+    font-size:16px;
+
+
+}
+
+.footer{
+    background-color: #1f2937;
+    display:flex;
+    justify-content: center;
+}
+
+.Maintext-footer{
+    font-size: 18px;
+    padding:18px;
+    color:white;
+    display: flex;
+}
